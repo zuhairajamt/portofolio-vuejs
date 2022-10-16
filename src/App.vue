@@ -1,20 +1,22 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HeaderComponent from './components/HeaderComponent.vue'
+<script>
+//import { RouterLink, RouterView } from 'vue-router';
+import DefaultView from './layouts/DefaultView.vue';
+
+export default {
+  name: 'App',
+  components: {
+    DefaultView
+  }
+}
 </script>
 
 
 <template>
-  
-  <HeaderComponent />
- 
+  <DefaultView>
   <!-- <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
       </nav> -->
-  <!-- <RouterView /> -->
+  <RouterView /> 
+  </DefaultView>
 </template>
-
-<style>
-
-</style>
