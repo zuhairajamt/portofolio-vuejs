@@ -62,7 +62,7 @@ export default {
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">{{project.desc}}</p>
                                     <router-link :to="{name: 'projects', params: {id: project.id}}">
-                                        <button class="btn btn-primary">
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">
                                             <i class="fa fa-info-circle"></i>
                                             Detail Project
                                         </button>

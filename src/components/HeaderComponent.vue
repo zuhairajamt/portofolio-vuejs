@@ -20,7 +20,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="https://raw.githubusercontent.com/zuhairajamt/zuhairajamt.github.io/a47cb2fcf5ff5c2c6ad2349137df72c50f70b646/assets/img/avataaars.svg" alt="..." />
+                <img class="masthead-avatar mb-5" src="../assets/img/avataaars.svg" alt="..." />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Zuhairaja MT</h1>
                 <!-- Icon Divider-->
