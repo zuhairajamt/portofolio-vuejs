@@ -61,10 +61,12 @@ export default {
                                     <img class="img-fluid rounded mb-5" :src="project.img" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">{{project.desc}}</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <router-link :to="{name: 'projects', params: {id: project.id}}">
+                                        <button class="btn btn-primary">
+                                            <i class="fa fa-info-circle"></i>
+                                            Detail Project
+                                        </button>
+                                    </router-link>
                                 </div>
                             </div>
                         </div>

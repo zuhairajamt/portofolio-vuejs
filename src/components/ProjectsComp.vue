@@ -28,7 +28,7 @@ const projects = [
     {
         id: 4,
         img: 'src/assets/img/portfolio/music.png',
-        tile: 'Openmusic-API',
+        title: 'Openmusic-API',
         desc: 'API for music playlists and albums. Developed using node js with hapi framework, and postgresql',
         label: 'portfolioModal4',
         target: '#portfolioModal4',
